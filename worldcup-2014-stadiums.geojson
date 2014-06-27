@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Arena da Amazônia",
+        "description": "Manaus",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.028191804885864,
+          -3.082976491775493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Arena Castelão",
+        "description": "Fortaleza",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5224974155426,
+          -3.8069839152887504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " Arena das Dunas",
+        "description": "Natal",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.21251201629639,
+          -5.826376352211854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " Arena Pernambuco",
+        "description": "Recife",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.00817060470581,
+          -8.040362962566723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Fonte Nova",
+        "description": "Salvador",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.50434422492981,
+          -12.978458799670367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " Arena Pantanal",
+        "description": "Cuiabá",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.12161874771118,
+          -15.603755568552987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " Estádio Nacional de Brasilia",
+        "description": "Brasilia",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.89922118186951,
+          -15.783385168552094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mineirão",
+        "decription": "Belo Horizonte",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.97108316421509,
+          -19.86555958768313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": " Maracanã",
+        "description": "Rio de Janeiro",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.23020339012146,
+          -22.911899759416883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Arena de São Paulo",
+        "description": "São Paulo",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.474313735961914,
+          -23.54475001876038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Arena da Baixada",
+        "description": "Curitiba",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.27700757980346,
+          -25.44814770732733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estádio Beira-Rio",
+        "description": "Porto Alegre",
+        "marker-color": "#14930A",
+        "marker-size": "large",
+        "marker-symbol": "soccer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.235857009887695,
+          -30.06513848869445
+        ]
+      }
+    }
+  ]
+}

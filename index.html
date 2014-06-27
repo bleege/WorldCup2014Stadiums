@@ -18,35 +18,13 @@
     <body>
 
     <div id="map" class="fullscreen"></div>
-    <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
 
     <script language="javascript">
         var map = L.mapbox.map('map', 'bleege.ii326poo');
-        var url = 'https://gist.githubusercontent.com/bleege/fc1c99a55f766d390591/raw/593dcec3aaa235106218bacab87b5fdaed46a1fd/worldcup-2014-stadiums.geojson';
 
-    function load() {
-        // Fetch just the contents of a .geojson file from GitHub by passing
-        // `application/vnd.github.v3.raw` to the Accept header
-        // As with any other AJAX request, this technique is subject to the Same Origin Policy:
-        // http://en.wikipedia.org/wiki/Same_origin_policy the server delivering the request should support CORS.
-        $.ajax({
-            headers: {
-            'Accept': 'application/vnd.github.v3.raw'
-            },
-            xhrFields: {
-                withCredentials: false
-            },
-            dataType: 'json',
-            url: url,
-            success: function(geojson) {
-                // On success add fetched data to the map.
-                L.mapbox.featureLayer(geojson).addTo(map);
-        }
-    });
-}
-
-$(load);
-
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('worldcup-2014-stadiums.geojson')
+            .addTo(map);
 
     </script>
 
